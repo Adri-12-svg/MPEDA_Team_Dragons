@@ -8,7 +8,7 @@ Web scraping data from the MPEDA official website and multiple seafood export co
 EfficientNet for classifying image,Flask as the main python framework for integration,News API for showing recent news related to seafood business,Google Firebase - creating database of login,smtplib for providing follow up emails with proper summary
 
 *Instructions*
-1) git clone ......
+1) git clone https://github.com/Saikat-KGP/MPEDA_Team_Dragons.git
 2) pip install bardapi
 3) go to bard-> console-> application -> cookies-> bard link -> _Secure - 1PSID api key
 4)pip install langchain
