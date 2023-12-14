@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar {
+    position: fixed;
+    width: 15%; /* Sidebar takes 15% of the view width */
+    height: 100%; /* Full height of the view */
+    background-color: #2c3e50; /* Example color */
+    padding: 1%;
+  }
+  
+  .sidebar-btn {
+    display: block;
+    width: 100%;
+    padding: 10% 1%; /* Percentage padding for vertical spacing */
+    color: white;
+    background-color: #34495e; /* Example color */
+    border: none;
+    margin-bottom: 2%;
+    text-align: left;
+  }
+  .btn-fixed-size {
+    width: 190px;
+    margin: 5%;
+   
+}
+  
+  .main-content {
+    margin-left: 15%; /* Adjust based on sidebar width */
+    width: 85%; /* Remaining width */
+    padding: 2%;
+  }
+  
+  
+  
+  .leads-overview {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 22%; /* Each card takes roughly 22% of the .main-content width */
+    padding: 2%;  
+    background-color: #ecf0f1; /* Example color */
+    text-align: center;
+    
+  }
+  
+  .card img {
+    width: 100%; /* Image takes full width of the card */
+    height: 100%;
+  }
+  
+  .create-lead-btn {
+    width: 100%;
+    padding: 2%;
+    background-color: #3498db; /* Example color */
+    color: white;
+    border: none;
+    margin-top: 2%;
+  }
+  
+ 
+h1 {
+    font-family: 'Arial', sans-serif; /* Choose a suitable font */
+    font-size: 2em; /* Set the font size */
+    margin: 0; /* Remove any default margin */
+}
+
+.chat-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 900px;
+}
+
+#chat-form {
+    display: flex;
+}
+
+#input-text {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#submit-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+#submit-button:hover {
+    background-color: #45a049;
+}
+
+.card-answer {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    margin-left: 3%;
+}
+
+#answer-container {
+    /* Your existing styles for the answer container can be added here */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+section{
+    margin-top: 3%;
+}
+
+
+
+#news-container {
+  display:flex;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: brown;
+}
+
+.card img {
+  max-width: 100%;
+  height:60%;
+}
+
+.dash {
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  margin-top: 10px; /* Adjust as needed */
+}
